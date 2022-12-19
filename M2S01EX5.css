@@ -1,12 +1,12 @@
-body{
-    background-image: "sapato.jpg";
-}
+
 
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 98vw;
+    background-image: url(sapato.jpg);
+    height: 15vh;
 }
 
 main{   
@@ -20,10 +20,14 @@ input{
 }
 
 section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     border-bottom: 10px white;
     padding-bottom: 20px;
     border-bottom: 2px solid rgb(146, 144, 144);
     margin-left: 10px;
+    height: 80vh;
 }
 
 section div{
@@ -44,7 +48,11 @@ button{
 }
 
 .capa{
-    background-image: "sapato.jpg";
+    background-image: url(Sapatoflix.png);
+}
+
+.texto{
+    margin-bottom: 20px;
 }
 
 h1{
@@ -87,6 +95,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 10vh;
     
 
 }
